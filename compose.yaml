@@ -15,5 +15,7 @@ services:
     build: .
     ports:
       - 8000:8000
+    environment:
+      APP_DSN: "postgresql+asyncpg://todoapp:todoapp1234@db:5432/todoapp"
 volumes:
   db: {}
