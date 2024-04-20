@@ -1,0 +1,11 @@
+.dockerignore
+Dockerfile
+.git
+.gitignore
+.python-version
+.ruff_cache
+.venv
+__pycache__
+requirements-dev.lock
+dist
+*.pyc
